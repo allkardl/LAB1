@@ -1,0 +1,24 @@
+<launch>
+    <node pkg="lab_yakub" type="mission_node" name="mission_node" output="screen">
+   
+        <param name="point_a_x" value="0.0" />
+        <param name="point_a_y" value="0.0" />
+        <param name="point_a_z" value="1.0" />
+
+    
+        <param name="point_b_x" value="4.0" />
+        <param name="point_b_y" value="0.0" />
+        <param name="point_b_z" value="1.0" />
+        
+     
+        <param name="point_c_x" value="4.0" />
+        <param name="point_c_y" value="4.5" />
+        <param name="point_c_z" value="1.0" />
+        
+   
+        <param name="point_d_x" value="0.0" />
+        <param name="point_d_y" value="2.5" />
+        <param name="point_d_z" value="1.0" />
+        
+    </node>
+</launch>
